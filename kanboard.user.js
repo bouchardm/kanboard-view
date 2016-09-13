@@ -5,8 +5,8 @@
 // @description  try to take over the world!
 // @author       Marc-Antoine BM
 // @match        https://kanban.libeo.com/board/*
-// @updateURL    https://cdn.rawgit.com/bouchardm/kanboard-view/master/kanboard.js 
-// @downloadURL  https://cdn.rawgit.com/bouchardm/kanboard-view/master/kanboard.js
+// @updateURL    https://cdn.rawgit.com/bouchardm/kanboard-view/master/kanboard.user.js 
+// @downloadURL  https://cdn.rawgit.com/bouchardm/kanboard-view/master/kanboard.user.js
 // @grant        none
 // ==/UserScript==
 
