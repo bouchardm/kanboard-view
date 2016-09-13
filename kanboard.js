@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kanboard
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       Marc-Antoine BM
 // @match        https://kanban.libeo.com/board/*
