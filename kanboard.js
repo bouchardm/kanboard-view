@@ -1,4 +1,4 @@
-==UserScript==
+// ==UserScript==
 // @name         Kanboard
 // @namespace    http://tampermonkey.net/
 // @version      0.1
