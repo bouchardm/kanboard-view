@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kanboard
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       Marc-Antoine BM
 // @match        https://kanban.libeo.com/board/*
@@ -21,4 +21,6 @@
         var value = $($(item).find('a')[0]).html();
         $(item).html(value);
     });
+
+    $('#board th.board-column-header').css('width','150px');
 })();
