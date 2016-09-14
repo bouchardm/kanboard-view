@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kanboard
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  try to take over the world!
 // @author       Marc-Antoine BM
 // @match        https://kanban.libeo.com/board/*
@@ -13,14 +13,18 @@
 (function() {
     'use strict';
 
-    $('.task-board-age-total').each(function(key, item) {
-        $(item).css('font-size', $(item).html().replace('d', '') * 2 + 'px');
-    });
+    var main = function() {
+        $('.task-board-age-total').each(function(key, item) {
+            $(item).css('font-size', $(item).html().replace('d', '') * 2 + 'px');
+        });
 
-    $('.task-board-title').each(function(key, item) {
-        var value = $($(item).find('a')[0]).html();
-        $(item).html(value);
-    });
+        $('.task-board-title').each(function(key, item) {
+            var value = $($(item).find('a')[0]).html();
+            $(item).html(value);
+        });
 
-    $('#board th.board-column-header').css('width','150px');
+        $('#board th.board-column-header').css('width','150px');
+        setTimeout(main, 2000);
+    };
+    main();
 })();
