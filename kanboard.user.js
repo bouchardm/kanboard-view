@@ -15,7 +15,7 @@
 
     var main = function() {
         $('.task-board-age-total').each(function(key, item) {
-            $(item).css('font-size', $(item).html().replace('d', '') * 2 + 'px');
+            $(item).css('font-size', $(item).html().replace('d', '') * 7 + 'px');
         });
 
         $('.task-board-title').each(function(key, item) {
